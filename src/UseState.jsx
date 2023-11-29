@@ -106,7 +106,7 @@ function UseState({ name }){
                 <p>Pedimos confirmación, Estas seguro?</p>
                 <button
                     onClick={() => {
-
+                        onDelete();
                     }}    
                 >
                     Si, eliminar
